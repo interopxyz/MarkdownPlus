@@ -45,7 +45,7 @@ namespace MarkdownPlus
 
         public static string SubText
         {
-            get { return "Text"; }
+            get { return "Markdown"; }
         }
 
         public static string SubMarkdown

@@ -17,7 +17,7 @@ namespace MarkdownPlus.Components
              Constants.SubSets, Constants.SubText)
         {
         }
-        public override GH_Exposure Exposure => GH_Exposure.septenary;
+        public override GH_Exposure Exposure => GH_Exposure.primary | GH_Exposure.obscure;
 
         /// <summary>
         /// Registers all the input parameters for this component.
